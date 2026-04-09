@@ -85,6 +85,10 @@ async function predictWebcam() {
     lastVideoTime = video.currentTime;
     results = handLandmarker.detectForVideo(video, startTimeMs);
   }
+
+  console.log("results:", results)           // ADD THIS
+  console.log("landmarks:", results.landmarks) // ADD THIS
+
   canvasCtx.save();
   canvasCtx.clearRect(0, 0, canvasElement.width, canvasElement.height);
     const drawingUtils = new DrawingUtils(canvasCtx)
