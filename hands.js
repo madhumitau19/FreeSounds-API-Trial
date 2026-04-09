@@ -46,13 +46,13 @@ function enableCam(event) {
     return;
   }
 
-  if (webcamRunning === true) {
-    webcamRunning = false;
-    enableWebcamButton.innerText = "ENABLE PREDICTIONS";
-  } else {
-    webcamRunning = true;
-    enableWebcamButton.innerText = "DISABLE PREDICTIONS";
-  }
+//   if (webcamRunning === true) {
+//     webcamRunning = false;
+//     enableWebcamButton.innerText = "ENABLE PREDICTIONS";
+//   } else {
+//     webcamRunning = true;
+//     enableWebcamButton.innerText = "DISABLE PREDICTIONS";
+//   }
 
   // getUsermedia parameters.
   const constraints = {
