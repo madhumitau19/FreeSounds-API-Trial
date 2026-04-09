@@ -23,14 +23,20 @@ body{
 
 }
 
-#hand-section{
-    
-}
 #webcam-container{
     width: 100%;
     height: 100%;
+    position: relative;
 }
 #webcam{
     width: 100%;
     object-fit: cover;
+}
+
+#output_canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
