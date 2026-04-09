@@ -28,3 +28,6 @@ async function search() {
         result.appendChild(div)
     })
 }
+
+//camera//
+
